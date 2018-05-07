@@ -1,0 +1,436 @@
+@charset "UTF-8";
+
+a {
+	color: #ffffff !important;
+}
+
+.content-container {
+	min-height: 100% !important;
+}
+
+.index-span {
+	padding: 0 2px 0 2px;
+}
+
+#indexBody {
+	background:
+		url('https://cdn.uncc.edu/its/my/d07/themes/img/front_page/17094515785_73a96cb107_b.jpg')
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-uncc {
+	background-color: #007539 !important;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff !important;
+	font-family: Helvetica;
+}
+
+.bg-unccft {
+	background-color: #222222;
+	color: #ffffff;
+	font-family: Helvetica;
+	box-shadow: 1px -1px 3px #222222;
+}
+
+.footer-text {
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #ffffff;
+}
+
+.footer-text:hover {
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #ffffff;
+}
+
+.width-25 {
+	width: 25%;;
+}
+
+.bold {
+	font-weight: bold;
+}
+/* Buttons */
+.btn-uncc {
+	color: #ffffff;
+	background-color: #007539;
+	border-color: #007539;
+}
+
+.btn-uncc:hover, .btn-uncc:focus, .btn-uncc:active, .btn-uncc.active,
+	.open .dropdown-toggle.btn-uncc {
+	color: #ffffff;
+	background-color: #007539;
+	border-color: #007539;
+}
+
+.btn-uncc:active, .btn-uncc.active, .open .dropdown-toggle.btn-uncc {
+	background-image: none;
+}
+
+.btn-uncc.disabled, .btn-uncc[disabled], fieldset[disabled] .btn-uncc,
+	.btn-uncc.disabled:hover, .btn-uncc[disabled]:hover, fieldset[disabled] .btn-uncc:hover,
+	.btn-uncc.disabled:focus, .btn-uncc[disabled]:focus, fieldset[disabled] .btn-uncc:focus,
+	.btn-uncc.disabled:active, .btn-uncc[disabled]:active, fieldset[disabled] .btn-uncc:active,
+	.btn-uncc.disabled.active, .btn-uncc[disabled].active, fieldset[disabled] .btn-uncc.active
+	{
+	background-color: #007539;
+	border-color: #007539;
+}
+
+.btn-uncc-secondary {
+	color: #ffffff;
+	background-color: #222;
+	border-color: #222;
+}
+
+.btn-uncc-secondary:hover, .btn-uncc-secondary:focus,
+	.btn-uncc-secondary:active, .btn-uncc-secondary.active, .open .dropdown-toggle.btn-uncc-secondary
+	{
+	color: #ffffff;
+	background-color: #222;
+	border-color: #222;
+}
+
+.btn-uncc-secondary:active, .btn-uncc-secondary.active, .open .dropdown-toggle.btn-uncc-secondary
+	{
+	background-image: none;
+}
+
+.btn-uncc-secondary.disabled, .btn-uncc-secondary[disabled], fieldset[disabled] .btn-uncc-secondary,
+	.btn-uncc-secondary.disabled:hover, .btn-uncc-secondary[disabled]:hover,
+	fieldset[disabled] .btn-uncc-secondary:hover, .btn-uncc-secondary.disabled:focus,
+	.btn-uncc-secondary[disabled]:focus, fieldset[disabled] .btn-uncc-secondary:focus,
+	.btn-uncc-secondary.disabled:active, .btn-uncc-secondary[disabled]:active,
+	fieldset[disabled] .btn-uncc-secondary:active, .btn-uncc-secondary.disabled.active,
+	.btn-uncc-secondary[disabled].active, fieldset[disabled] .btn-uncc-secondary.active
+	{
+	background-color: #222;
+	border-color: #222;
+}
+
+.btn-uncc-secondary .badge {
+	color: #222;
+	background-color: #ffffff;
+}
+
+.alert-uncc {
+	color: #ffffff;
+	background-color: #007539;
+	border-color: #007539;
+	border: 1px solid transparent;
+	opacity: 0.3;
+	filter: alpha(opacity = 30); /* For IE8 and earlier */
+}
+
+.btn-uncc .badge {
+	color: #007539;
+	background-color: #ffffff;
+}
+
+.ml-10 {
+	margin-left: 35px;
+}
+
+.mr-100 {
+	margin-right: 100px;
+}
+
+.mr-50 {
+	margin-right: 55em;
+}
+
+.mt-12 {
+	margin-top: 12rem !important;
+}
+
+.dropdown-font {
+	color: #212529 !important;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.navbar-light .navbar-brand {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.nav-link-white {
+	color: #ffffff;
+}
+
+.fixed-bottom {
+	min-height: 100px;
+}
+
+.form-signin {
+	max-width: 380px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fixed-bottom {
+	position: fixed !important;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+/* Css for material design */
+.material-card {
+	border-radius: 2px;
+	position: relative;
+}
+
+.material-card-1 {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.material-card-1:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px
+		rgba(0, 0, 0, 0.22);
+}
+
+.material-card-2 {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.material-card-3 {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px
+		rgba(0, 0, 0, 0.23);
+}
+
+.fixed-bottom {
+	min-height: 40px !important;
+	/* max-height: 50px!important; */
+}
+
+.ml-30 {
+	margin-left: 30%;
+}
+
+.cp-right {
+	color: white !important;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.full-height {
+	min-height: 100% !important;
+	max-height: 100%;
+}
+
+.btn-70 {
+	width: 60%;
+}
+
+.login-footer-text {
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	font-stretch: wider;
+	cursor: pointer;
+}
+
+.btn-link {
+	font-size: 14px !important;
+	font-weight: bolder !important;
+	color: white !important;
+	font-stretch: wider;
+	cursor: pointer;
+}
+
+.uncc-rounded {
+	-webkit-display: block;
+	-moz-display: block;
+	-o-display: block;
+	display: block;
+	/* 	box-shadow: -8px 4px 17px -1px #FAF0E6;
+	-moz-box-shadow:  -8px 4px 17px -1px #FAF0E6;
+-webkit-box-shadow:  -8px 4px 17px -1px #FAF0E6;
+	border-radius: 50%; */
+	-webkit-box-shadow: -8px 4px 17px -1px #FAF0E6;
+	-moz-box-shadow: -8px 4px 17px -1px #FAF0E6;
+	box-shadow: -8px 4px 17px -1px #FAF0E6;
+	-o-box-shadow: -8px 4px 17px -1px #FAF0E6;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+
+	/* background-color: #007539; */
+	/* background-color: rgba(0,0,0,.03); */
+	/*border: 2px solid rgba(0,0,0,.125);*/
+}
+
+.fa-sign-out {
+	color: white !important;
+	margin-right: 5px;
+}
+
+.navbar-narrow {
+	padding-left:-1rem;
+	padding-right:-1rem;
+	/* max-height:45px; */
+}
+
+.fa-sign-in {
+	color: white !important;
+	margin-right: 5px;
+}
+
+.fa-user {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-home {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-tasks {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.header-menu {
+	font-size: 16px;
+	color: white;
+	font-weight: normal;
+}
+
+.fa-plus-square {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-minus-square {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-th-list {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-pencil-square-o {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-undo {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-paper-plane {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-trash {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-floppy-o {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-window-close {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-registered {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-user-plus {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-user-times {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-users {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-book {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-cogs {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-toggle-off {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-toggle-on {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-check-circle-o {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-stop-circle-o {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.fa-cog {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.avtar {
+	width: 73px;
+	max-height: 70px;
+	border-radius: 50%;
+}
+
+.avtarSmall {
+	width: 32px;
+	max-height: 32px;
+	border-radius: 50%;
+}
+
+.center-new {
+	vertical-align: middle !important;
+}
