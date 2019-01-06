@@ -1,4 +1,4 @@
-# student-portal
+# Student Portal
 Student Portal is a Web Application which provides an easy way for its users – primarily the students of the University 
 to register for the courses of active terms, modify their course registration, and drop the course for particular term. 
 The application also allows students to view all the registered courses irrespective of terms and
